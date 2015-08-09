@@ -7,7 +7,7 @@ import Storage from '../utils/Storage';
 import JWT from '../utils/jwt';
 import type { Credentials } from '../types/Session';
 
-const storage = new Storage('portland-apts');
+const storage = new Storage('auth-example');
 
 export function open(
   credentials: Credentials,
